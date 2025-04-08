@@ -2,6 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialTrackerApi", "FinancialTrackerApi\FinancialTrackerApi.csproj", "{B1615F66-A431-49B8-B1B6-723B4CD529E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nginx", "Nginx", "{F3DA7E3F-F246-4199-841A-424BBCB5D13B}"
+	ProjectSection(SolutionItems) = preProject
+		Nginx.Dockerfile = Nginx.Dockerfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
