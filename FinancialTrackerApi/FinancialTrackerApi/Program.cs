@@ -43,7 +43,7 @@ builder.Services.AddControllers()
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+//builder.Services.AddOpenApi();
 
 // MongoDB configuration
 var mongoDbSettings = builder.Configuration
@@ -61,10 +61,10 @@ builder.Services.AddScoped<ITransactionService, TransactionService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+/*if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-}
+}*/
 
 //app.UseHttpsRedirection();
 
